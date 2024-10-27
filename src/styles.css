@@ -1,0 +1,12 @@
+/* styles.css */
+
+body {
+  background-color: #343a40; /* Bootstrap's dark color */
+  color: #ffffff; /* White text color */
+}
+
+.container {
+  background-color: #495057; /* Darker background for the container */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+}
