@@ -30,6 +30,10 @@ function App() {
     );
   };
 
+  const deleteAllTasks = () => {
+    setTasks([]);
+  };
+
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4"> Todo List App</h1>
@@ -39,6 +43,11 @@ function App() {
         deleteTask={deleteTask}
         toggleComplete={toggleComplete}
       />
+      {tasks.length > 0 && (
+        <button className="btn btn-danger mt-4" onClick={deleteAllTasks}>
+          Delete All Tasks
+        </button>
+      )}
     </div>
   );
 }
