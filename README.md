@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+## Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Todo List Application** is a simple yet powerful task management tool designed to help users organize their daily tasks efficiently. Built using **React** and **TypeScript**, this app provides a responsive and user-friendly interface for managing your to-do items.
 
-Currently, two official plugins are available:
+### Key Features:
+- **Add Tasks**: Easily create new tasks and keep track of what needs to be done.
+- **Delete Tasks**: Remove individual tasks or clear your entire task list with a single click.
+- **Task Completion**: Mark tasks as completed to visually track your progress.
+- **Dark Theme**: A sleek dark mode for comfortable use in low-light environments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used:
+- **React**: For building the user interface.
+- **TypeScript**: To ensure type safety and improve code quality.
+- **Bootstrap**: For responsive design and styling, making the app look polished on any device.
 
-## Expanding the ESLint configuration
+This project serves as a practical demonstration of modern web development practices and is an excellent starting point for anyone looking to learn more about React and TypeScript. Feel free to explore the code, contribute, and enhance this application further!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+### Usage
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You can place this description in your `README.md` file on GitHub to give visitors a clear understanding of what your project is about. If you need any adjustments or additional information included, let me know!
